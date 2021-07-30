@@ -1,7 +1,6 @@
 import React from 'react';
 import Greetings from './components/Greetings'
 
-
 const InternalGreeting = () => {
   const name = 'Jeanine Rogers'
   const fgcolor = '#544ac1';
