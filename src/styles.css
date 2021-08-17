@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    background: #222C3E;
+    color: white;
+    margin: 0;
+}
+
+section{
+    margin-top: 50px;
+}
+
+form{
+    width: 40%;
+    margin: 0 auto;
+}
+
+label{
+    margin-left: 10px;
+    font-size: 1.5rem;
+}
+.form-style{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-submit{
+    margin-top: 30px;
+    width: 49%;
+    background-color: rgb(204, 205, 207);
+    height: 3.5rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.input-submit+.input-submit
+    {
+        margin-left: 10px;
+    }
+
+
+
+input{
+    background-color: rgb(240, 237, 196);
+    padding-left: 10px;
+    font-size: 1.3rem;
+    /* background: url(./images/input_image1.JPG) no-repeat scroll 5px 5px;
+    padding-left:30px; */
+    height: 3.5rem;
+    border-radius: 10px;
+}
+
+p{
+    color:coral;
+    font-size: 1.4rem;
+
+}
+
+#email #passwd #confpasswd{
+    color:chartreuse;
+}
+
+.info-card{
+display: block;
+margin-top: 40px;
+background-color: rgb(100, 133, 185) ;
+border-radius: 10px;
+padding: 1rem 2rem;
+}
+
+.info-card-hide{
+    display: none;
+}
